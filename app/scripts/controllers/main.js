@@ -10,8 +10,8 @@
 angular.module('appTestApp')
   .controller('MainCtrl', function ($scope) {
     $scope.awesomeThings = [
-      'HTML5 Boilerplate',
       'AngularJS',
-      'Karma'
+      'Karma',
+      'Protractor'
     ];
   });

@@ -380,6 +380,13 @@ module.exports = function (grunt) {
        // singleRun: true,
         autoWatch: true
       }
+    },
+    protractor: {
+      options: {
+        keepAlive: true,
+        configFile: 'test/protractor.conf.js'
+      },
+      run: {}
     }
   });
 

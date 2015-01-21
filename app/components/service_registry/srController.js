@@ -2,13 +2,13 @@
 
 /**
  * @ngdoc function
- * @name appTestApp.controller:MainCtrl
+ * @name
  * @description
- * # MainCtrl
+ * # SeriveRegisty
  * Controller of the appTestApp
  */
-angular.module('appTestApp')
-  .controller('MainCtrl', function ($scope) {
+angular.module('appServiceRegirty')
+  .controller('SeriveRegistyCtrl', function ($scope) {
     $scope.awesomeThings = [
       'AngularJS',
       'Karma',
